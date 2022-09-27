@@ -1,0 +1,64 @@
+*{ /*always start with this*/
+    margin: 0;
+    padding: 0;
+    }
+    html{
+        background-color: bisque;
+    }
+
+    #logo{
+        height: 75px;
+        }
+
+#pageheader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}  
+
+#pageheader > h1{
+    justify-self: center;
+    align-self: center;
+    font-size: 3rem;
+    color: darkgreen;
+    text-shadow: 3px 3px cornflowerblue;
+}
+#pageheader > nav{
+
+    justify-self: end;
+    align-self: center;
+}
+
+#pageheader a{
+
+    text-decoration: none;
+    font-size: 1rem;
+    border: 3px cornflowerblue solid;
+    border-radius: 25%;
+    padding: 0.25rem;
+    margin: 10px;
+    
+}
+
+div > img{
+    max-height: 50vh;
+}
+
+#mainsection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px 1fr));
+}
+
+#footer > nav{
+    display: grid;
+
+}
+
+
+
+
+
+
+
+
+
